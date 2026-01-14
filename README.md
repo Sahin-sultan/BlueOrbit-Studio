@@ -1,15 +1,3 @@
-# SHAANSAHIN - Premium Freelancing Website
-
-<div align="center">
-
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
-![React](https://img.shields.io/badge/React-18.2.0-61dafb.svg)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-10.16.4-ff0055.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-
-A premium, interactive freelancing website for SHAANSAHIN by the SWM Team, featuring stunning animated backgrounds, smooth transitions, and modern UI/UX design.
-
-[Live Demo](#) | [Documentation](#features) | [Contact](#contact)
 
 # BlueOrbit Studio - Premium Freelancing Website
 </div>

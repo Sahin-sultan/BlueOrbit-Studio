@@ -27,12 +27,24 @@
   font-size: 1rem;
 }
 
+
+/* Hide nav-links when scrolled, but allow full expansion on hover */
 .navbar.scrolled .nav-links {
   max-width: 0;
   overflow: hidden;
   opacity: 0;
   margin: 0;
+  pointer-events: none;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navbar.scrolled:hover .nav-links,
+.navbar.scrolled .navbar-container:hover .nav-links {
+  max-width: 800px;
+  opacity: 1;
+  margin: 0 1rem;
+  overflow: visible;
+  pointer-events: auto;
 }
 
 /* Expand on hover when scrolled */

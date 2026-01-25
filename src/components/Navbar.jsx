@@ -34,17 +34,8 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="navbar-container">
-        <a 
-          href="#hero" 
-          className="logo"
-        >
-          <div className="logo-icon">
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-              <circle cx="16" cy="16" r="14" stroke="currentColor" strokeWidth="2"/>
-              <path d="M16 8 L16 16 L22 16" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
-            </svg>
-          </div>
-          <span className="logo-text">BlueOrbit Studio</span>
+        <a href="#hero" className="logo">
+          <span className="logo-text">Blue Orbit</span>
         </a>
 
         <button 
@@ -57,7 +48,7 @@ const Navbar = () => {
           <span></span>
         </button>
 
-        <ul className={`nav-links ${isMenuOpen ? 'active' : ''}`}>
+        <ul className={`nav-links ${isMenuOpen ? 'active' : ''}`}> 
           {navLinks.map((link, index) => (
             <motion.li 
               key={link.name}

@@ -100,7 +100,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; {currentYear} BlueOrbit Studio. All rights reserved. Crafted with ❤️ by SWM Team.</p>
+          <p>&copy; {currentYear} BlueOrbit Studio. All rights reserved. Crafted with ❤️ by <a href="https://sahinsultan.vercel.app/" target="_blank" rel="noopener noreferrer">sahinsultan</a>.</p>
           <div className="footer-credit">
             <a href="#hero" className="back-to-top">
               Back to Top

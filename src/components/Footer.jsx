@@ -100,7 +100,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; {currentYear} BlueOrbit Studio. All rights reserved. Crafted with ❤️ by <a href="https://sahinsultan.vercel.app/" target="_blank" rel="noopener noreferrer">sahinsultan</a>.</p>
+          <p>&copy; {currentYear} BlueOrbit Studio. All rights reserved. Crafted with ❤️ by <a href="https://sahinsultan.vercel.app/" target="_blank" rel="noopener noreferrer">sahinsultan</a>. <a href="https://www.flaticon.com/free-icons/planet" title="planet icons" target="_blank" rel="noopener noreferrer">Planet icons created by Nsit - Flaticon</a></p>
           <div className="footer-credit">
             <a href="#hero" className="back-to-top">
               Back to Top
